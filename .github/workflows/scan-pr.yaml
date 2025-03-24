@@ -24,13 +24,13 @@ jobs:
 
       - uses: jfrog/frogbot@v2
         with:
-          oidc-provider-name: destgithub
-          oidc-audience: frogoidc
+          oidc-provider-name: psemeaoidc
+          oidc-audience: psemeaoidc
           
         env:
           # [Mandatory]
           # JFrog platform URL
-          JF_URL: https://psblr.jfrog.io
+          JF_URL: https://psemea.jfrog.io
 
           # [Mandatory if JF_USER and JF_PASSWORD are not provided]
           # JFrog access token with 'read' permissions on Xray service
